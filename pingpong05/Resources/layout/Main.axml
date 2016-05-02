@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout2"
+        android:stretchColumns="*">
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_height="37.2dp">
+            <ImageButton
+                android:src="@drawable/social"
+                android:layout_column="0"
+                android:layout_width="56.7dp"
+                android:layout_height="57.3dp"
+                android:id="@+id/shareButton"
+                android:layout_marginBottom="0.0dp"
+                android:scaleType="fitXY"
+                android:background="@android:color/background_dark" />
+            <TextView
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="1"
+                android:id="@+id/ScoreInfo"
+                android:layout_width="150.3dp"
+                android:layout_marginTop="20.7dp"
+                android:layout_marginLeft="16.5dp" />
+            <ImageButton
+                android:id="@+id/MyButton"
+                android:src="@drawable/play"
+                android:layout_column="2"
+                android:layout_marginRight="0.0dp"
+                android:layout_width="104.1dp"
+                android:background="@android:color/background_dark"
+                android:layout_height="57.2dp" />
+        </TableRow>
+    </TableLayout>
+    <FrameLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="350.2dp"
+        android:id="@+id/frameLayout1">
+        <TextView
+            android:text="LVL "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/LVLInfo"
+            android:gravity="center"
+            android:textStyle="bold" />
+        <GridLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:id="@+id/bal"
+            android:background="@android:color/white"
+            android:layout_marginBottom="0.0dp"
+            android:layout_marginTop="30.0dp" />
+        <GridLayout
+            android:minWidth="55px"
+            android:minHeight="55px"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:id="@+id/bous01"
+            android:background="@android:color/holo_orange_light"
+            android:layout_marginBottom="0.0dp"
+            android:layout_marginTop="30.0dp" />
+        <GridLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:id="@+id/plaer"
+            android:background="@android:color/white"
+            android:layout_marginBottom="0.0dp"
+            android:layout_marginTop="294.0dp" />
+        <Button
+            android:text="START"
+            android:layout_width="220dp"
+            android:layout_height="100dp"
+            android:id="@+id/startButton"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="@android:dimen/app_icon_size"
+            android:backgroundTint="#f5f5dcff"
+            android:background="@android:color/holo_orange_light"
+            android:layout_marginTop="5.2dp" />
+    </FrameLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout1"
+        android:stretchColumns="*">
+        <TableRow
+            android:id="@+id/tableRow1">
+            <ImageButton
+                android:layout_column="0"
+                android:id="@+id/buttonL"
+                android:layout_width="wrap_content"
+                android:layout_height="73.1dp"
+                android:background="@android:color/background_dark"
+                android:src="@drawable/back" />
+            <ImageButton
+                android:layout_column="1"
+                android:id="@+id/buttonR"
+                android:layout_width="wrap_content"
+                android:layout_height="73.0dp"
+                android:background="@android:color/background_dark"
+                android:src="@drawable/next" />
+        </TableRow>
+    </TableLayout>
+    <GridLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="70.5dp"
+        android:id="@+id/adsLayout" />
+</LinearLayout>
